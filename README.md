@@ -7,7 +7,7 @@
 - [week1_base_hw_v3](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_base_hw_v3/)
 - [week1_base_hw_v4](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_base_hw_v4/)
 - [week1_base_hw_v5](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_base_hw_v5/)
-1. 使用 <code> 來告訴瀏覽器這邊是 code ，使用在 index.html 的 < > 特殊字元 
+1. 使用 <code> 來告訴瀏覽器這邊是 code ，使用在 index.html 的 &lt; &t; 特殊字元 
 2. 小心使用 *{ box-sizing: border-box; } ，有時在維護專案時會導致跑版，另一點在有需要的地方加就好，避免浪費效能
 3. 縮寫的使用，其實有些多餘的屬性會浪費效能
  例如:
