@@ -1,0 +1,62 @@
+body {
+  background-color: #eeeeee;
+  line-height: 28px;
+  font-family: Microsoft JhengHei, serif;
+}
+
+nav {
+  margin-top: 32px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 5px;
+}
+
+a {
+  color: #3d7ea5;
+  text-decoration: none;
+}
+
+code {
+  font-family: Microsoft JhengHei, serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  width: 240px;
+  height: 240px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 16px;
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
