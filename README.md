@@ -20,5 +20,8 @@
 - [week1_quiz](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_quiz/)
 - [week1_quiz_v2](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_quiz_v2/)
 - [week1_quiz_v3](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_quiz_v3/)
+
+檢討後
+- [檢討文件](https://hackmd.io/@jason60810/SJMuVswwY) 
 - [week1_quiz_v4](https://jaosn60810.github.io/2021_cm_frontend_practice/week1_all/week1_quiz_v4/)
 ---
