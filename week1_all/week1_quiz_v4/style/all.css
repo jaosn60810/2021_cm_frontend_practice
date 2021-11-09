@@ -65,7 +65,9 @@ section {
 }
 
 article {
-  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h2 {
