@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif;
+  background: #e6e6e6;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  width: 530px;
+  height: 50px;
+  margin-bottom: 16px;
+  line-height: 50px;
+}
+
+a {
+  background-image: url("../images/bg.png");
+  display: block;
+  width: 530px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  background-position-y: 0px;
+}
+
+a:visited {
+  background-position-y: -50px;
+}
+
+a:hover {
+  background-position-y: -100px;
+  color: white;
+}
+
+a:active {
+  background-position-y: -150px;
+}

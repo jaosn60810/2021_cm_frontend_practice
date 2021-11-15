@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif;
+}
+
+body {
+  background-color: #f69f9f;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+header {
+  min-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #f05c61;
+  margin: 0;
+  height: 59px;
+  line-height: 59px;
+}
+
+h4,
+p {
+  margin: 0;
+}
+
+.menu {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fbcfcf;
+  display: flex;
+  position: relative;
+}
+
+.menu-list {
+  width: 20%;
+}
+
+.menu-content {
+  width: 80%;
+}
+
+.menu-content-img {
+  width: 100%;
+}
+
+.menu-content-img img {
+  width: 100%;
+}
+
+.menu-list-item:hover {
+  background-color: #fff;
+}
+
+.menu-list-item:hover .menu-card {
+  display: block;
+}
+
+.menu-list-item > ul {
+  display: flex;
+}
+
+.menu-list-item > ul > li {
+  margin: 10px;
+}
+
+.menu-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  display: none;
+}
+
+.menu-card > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-card-item {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+}
+
+.menu-card-item:hover {
+  background: #eee;
+}
+
+.menu-card-item-info {
+  margin-left: 1em;
+  width: 70%;
+}
+
+.menu-card-item-img {
+  width: 30%;
+  height: auto;
+}
+
+.menu-card-item-img img {
+  width: 100%;
+  height: auto;
+}
+
+.price {
+  color: #fa1229;
+  font-size: 1.25rem;
+}
+
+.menu-card-link {
+  color: #fa1229;
+  font-size: 0.75rem;
+  padding: 3px;
+  border: 1px solid #fa1229;
+  border-radius: 5px;
+}

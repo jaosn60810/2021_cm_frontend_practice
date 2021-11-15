@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, "Microsoft JhengHei", sans-serif;
+  background-color: #eee;
+  color: #656665;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #656665;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  padding: 20px 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background: #444;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  color: #fff;
+  display: block;
+}
+
+.nav a:hover {
+  color: #2ea3f2;
+}
+
+.nav li {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+  }
+
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 36px;
+    height: 30px;
+    background: #666;
+    border-radius: 3px;
+    padding: 6px;
+  }
+
+  .menu-icon-line {
+    height: 2px;
+    background: #fff;
+  }
+
+  .nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(68, 68, 68, 0.7);
+  }
+
+  .nav ul {
+    display: block;
+  }
+
+  .nav li a {
+    padding: 8px 12px;
+  }
+}
+
+main,
+.breadcrumb {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  .breadcrumb {
+    padding: 0 12px;
+  }
+}
+
+main {
+  display: flex;
+}
+
+article {
+  max-width: 780px;
+}
+
+.breadcrumb {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.breadcrumb li {
+  margin-right: 0.5rem;
+}
+
+.breadcrumb li:last-child > a {
+  color: #999;
+}
+
+.breadcrumb li span {
+  margin-left: 0.5rem;
+}
+
+.page {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.page a {
+  display: block;
+  padding: 20px;
+}
+
+.page a:hover {
+  color: #2ea3f2;
+}
+
+.page a:hover img {
+  opacity: 0.7;
+}
+
+.page img {
+  display: block;
+  margin: 0 auto;
+}
+
+.page h2 {
+  margin-bottom: 20px;
+}
+
+.page-content ul {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.page-content li {
+  display: flex;
+}
+
+.page-content p {
+  line-height: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-content li::after {
+  content: "｜";
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.card-content li:last-child::after {
+  display: none;
+}
+
+aside {
+  margin-left: 20px;
+  max-width: 400px;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 480px) {
+  aside {
+    display: none;
+  }
+}
+
+.side-card {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.side-card > h3 {
+  margin-bottom: 1rem;
+  color: #999;
+}
+
+.side-card li {
+  margin-bottom: 20px;
+}
+
+.side-card a {
+  display: flex;
+}
+
+.side-card a:hover {
+  color: #2ea3f2;
+  opacity: 0.7;
+}
+
+.side-card p {
+  margin-left: 20px;
+}
+
+.side-card img {
+  width: 105px;
+  height: 100%;
+}
+
+.ad {
+  margin-bottom: 1em;
+}
