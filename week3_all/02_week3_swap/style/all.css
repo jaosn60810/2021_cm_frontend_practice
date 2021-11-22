@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+  background-color: #555555;
+  font-family: Arial, Helvetica, 'Microsoft JhengHei', sans-serif;
+}
+
+.img-resp {
+  max-width: 100%;
+  height: auto;
+}
+
+.headTitle {
+  color: #ccc;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.photoFrame {
+  padding: 15px;
+  background-color: #fff;
+  width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.photoFrame img {
+  width: 100%;
+}
+
+.photoFrame_index {
+  margin-top: 1em;
+  text-align: right;
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
+  font-family: Arial, Helvetica, 'Microsoft JhengHei', sans-serif;
+  background-color: #ddd;
+}
+
+.img-resp {
+  max-width: 100%;
+  height: auto;
+}
+
+.headTitle {
+  color: #666;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.photo_wrap {
+  padding: 15px;
+  background-color: #fff;
+  width: 820px;
+}
+
+.photo_thumbnails {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.photo_thumbnail {
+  max-width: 100px;
+}
+
+.photo_thumbnail:hover {
+  opacity: 50%;
+}
+
+.photo {
+  margin: 0;
+}

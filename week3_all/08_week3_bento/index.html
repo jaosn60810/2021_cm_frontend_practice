@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="JM">
+  <meta name="description" content="This is 08_week3_bento.">
+  <link rel="stylesheet" href="./style/all.css">
+  <title>08_week3_bento</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="headTitle">CMoney 線上訂餐</h1>
+  </header>
+  <main>
+    <h2 id="title">您好！歡迎光臨～請輸入所需的餐點數量</h2>
+    <form id="orderForm" class="form form_active" action="index.html">
+      <div class="input_wrap">
+        <div class="input_label">
+          <label for="food1">雞腿飯</label>
+          <small>100 元</small>
+        </div>
+        <div class="input">
+          <small>數量：</small>
+          <input id="food1" name="food1" type="text" placeholder="0" />
+        </div>
+      </div>
+      <div class="input_wrap">
+        <div class="input_label">
+          <label for="food2">排骨飯</label>
+          <small>80 元</small>
+        </div>
+        <div class="input">
+          <small>數量：</small>
+          <input id="food2" name="food2" type="text" placeholder="0" />
+        </div>
+      </div>
+      <div class="input_wrap">
+        <div class="input_label">
+          <label for="food3">控肉飯</label>
+          <small>70 元</small>
+        </div>
+        <div class="input">
+          <small>數量：</small>
+          <input id="food3" name="food3" type="text" placeholder="0" />
+        </div>
+      </div>
+      <div class="input_wrap">
+        <div class="input_label">
+          <label for="food4">魚排飯</label>
+          <small>85 元</small>
+        </div>
+        <div class="input">
+          <small>數量：</small>
+          <input id="food4" name="food4" type="text" placeholder="0" />
+        </div>
+      </div>
+      <button type="button" id="nextBtn" class="btn">下一步</button>
+    </form>
+    <form id="checkForm" class="form" action="index.html">
+      <div class="input_wrap">
+        <h3>小計：</h3>
+        <h4 class="subtotal"></h4>
+      </div>
+      <div class="input_wrap">
+        <h3>折數：</h3>
+        <h4 class="discount"></h4>
+      </div>
+      <div class="input_wrap">
+        <h3>運費：</h3>
+        <h4 class="shipping"></h4>
+      </div>
+      <div class="input_wrap">
+        <h3>合計：</h3>
+        <h4 class="total"></h4>
+      </div>
+      <a href="./finished.html" class="btn">確認</a>
+    </form>
+  </main>
+  <script src="./js/all.js"></script>
+</body>
+
+</html>

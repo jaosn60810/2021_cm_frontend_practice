@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import './normalize';
+
+@import './helpers/helpers';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, 'Microsoft JhengHei', sans-serif;
+  background-color: #555;
+}
+
+.headTitle {
+  color: white;
+  text: {
+    align: center;
+    shadow: -1px 1px 0 black;
+  }
+}
+
+.carousel {
+  width: 700px;
+}
+
+.carousel img {
+  width: 100%;
+  box-shadow: 8px 8px 0 #222;
+}
