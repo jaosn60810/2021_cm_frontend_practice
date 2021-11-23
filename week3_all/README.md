@@ -37,11 +37,11 @@
 ---
 
 ### quiz
-- [week2_quiz](https://jaosn60810.github.io/2021_cm_frontend_practice/week2_all/week2_quiz/)
+- [week3_quiz](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/week3_quiz/)
 
 
 檢討後
-- [檢討文件](https://hackmd.io/@jason60810/ryGoMaldY) 
+- [檢討文件](https://hackmd.io/@jason60810/SkezN-q_K) 
 
 
 
