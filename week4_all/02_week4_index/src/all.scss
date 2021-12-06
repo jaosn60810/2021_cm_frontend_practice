@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import './normalize';
+
+@import './helpers/helpers';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, 'Microsoft JhengHei', sans-serif;
+  background-color: #e9eaed;
+  color: #999;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header {
+  background: #fff;
+  width: 800px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dfe0e4;
+  border-radius: 5px;
+}
+
+.header__title {
+  color: black;
+}
+
+.header__date-icon {
+  margin-right: 5px;
+}
+
+.container {
+  width: 800px;
+  background: #fff;
+}
+
+.index-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.index-table__head {
+  background: linear-gradient(#f8f8f8, #ececec);
+}
+
+.index-table__head th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-bottom: 2px solid #ccc;
+}
+
+.index-table__body td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.index-table__row-even {
+  background-color: #f9f9f9;
+}
+
+.index-rise {
+  color: #ff0000;
+}
+
+.index-fall {
+  color: #22a90d;
+}

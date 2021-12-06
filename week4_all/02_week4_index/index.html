@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="JM">
+  <meta name="description" content="這是指數行情">
+  <link rel="stylesheet" href="./style/all.css">
+  <title>指數行情</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header mx-auto">
+    <h1 class="header__title">指數行情</h1>
+    <div id="HeaderDate" class="header__date">
+      <i class="fas fa-calendar-alt header__date-icon"></i>
+    </div>
+  </header>
+
+  <main class="container mx-auto">
+
+    <table class="index-table">
+      <thead class="index-table__head">
+        <tr>
+          <th width="200">分類</th>
+          <th>指數</th>
+          <th>漲跌</th>
+          <th>漲跌幅（％）</th>
+          <th>成交量（億）</th>
+        </tr>
+      </thead>
+      <tbody id="IndexTableBody" class="index-table__body">
+      </tbody>
+    </table>
+
+  </main>
+
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
