@@ -2,46 +2,30 @@
  
 ## week1
 ### hw1
-- [01_week3_swap](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/01_week3_swap/)
+- [01_week4_holiday](https://jaosn60810.github.io/2021_cm_frontend_practice/week4_all/01_week4_holiday/)
 
 ### hw2
-- [02_week3_swap](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/02_week3_swap/)
+- [02_week4_index](https://jaosn60810.github.io/2021_cm_frontend_practice/week4_all/02_week4_index/)
 
 ### hw3
-- [03_week3_tab](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/03_week3_tab/)
+- [03_week4_remove](https://jaosn60810.github.io/2021_cm_frontend_practice/week4_all/03_week4_remove/)
 
 ### hw4
-- [04_week3_navigation](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/04_week3_navigation/)
+- [04_week4_recommend](https://jaosn60810.github.io/2021_cm_frontend_practice/week4_all/04_week4_recommend/)
 
-### hw5
-- [05_week3_girl](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/05_week3_girl/)
-
-### hw6
-- [06_week3_car](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/06_week3_car/)
-
-### hw7
-- [07_week3_slide](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/07_week3_slide/)
-
-
-### hw8
-- [08_week3_bento](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/08_week3_bento/)
-
-
-### hw9
-- [09_week3_slide](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/09_week3_slide/)
 
 檢討後
-- [檢討文件](https://hackmd.io/@jason60810/r1XPMc_dK) 
+- [檢討文件](https://hackmd.io/@jason60810/S1EBhj-YF) 
 
 
 ---
 
 ### quiz
-- [week3_quiz](https://jaosn60810.github.io/2021_cm_frontend_practice/week3_all/week3_quiz/)
+- [week4_quiz](https://jaosn60810.github.io/2021_cm_frontend_practice/week4_all/week4_quiz/)
 
 
 檢討後
-- [檢討文件](https://hackmd.io/@jason60810/SkezN-q_K) 
+- [檢討文件](https://hackmd.io/@jason60810/ByIB3ibKF) 
 
 
 
