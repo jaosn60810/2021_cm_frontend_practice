@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import './normalize';
+
+@import './helpers/helpers';
+
+@import './helpers/mixin';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, 'Microsoft JhengHei', sans-serif;
+  background-color: #ddd;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

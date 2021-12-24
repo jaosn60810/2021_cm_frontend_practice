@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import './normalize';
+
+@import './helpers/variables';
+
+@import './helpers/helpers';
+
+@import './helpers/mixins';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, 'Microsoft JhengHei', sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MacBook Pro 16 灰",
+    "desc": "8核心第九代 i9 / 1TB / 2.4GHz",
+    "src": "https://b.ecimg.tw/items/DYAJBGA900AIFEX/000001_1588847796.jpg",
+    "price": 110900
+  },
+  {
+    "name": "Apple Watch S6",
+    "desc": "藍色鋁金屬錶殼海軍深藍色運動型錶帶",
+    "src": "https://b.ecimg.tw/items/DYAJCLA900AVOGK/000001_1600407932.jpg",
+    "price": 12900
+  },
+  {
+    "name": "Mac mini 3.6GHz",
+    "desc": "第八代 i3 / 8GB / 256GB",
+    "src": "https://b.ecimg.tw/items/DYAJER1900AP0HX/000001_1591153062.jpg",
+    "price": 23828
+  },
+  {
+    "name": "MacBook Air 13 金色",
+    "desc": "256GB / 雙核心第10代 i3 / 1.1GHz",
+    "src": "https://c.ecimg.tw/items/DYAJEX1900AOLWE/000001_1590548767.jpg",
+    "price": 29900
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Apple iPhone SE 128G 4.7吋 智慧型手機",
+    "src": "https://s.yimg.com/zp/MerchandiseImages/BA403D74EA-Product-25246515.jpg",
+    "desc": "",
+    "price": 15388,
+    "hasFast": false,
+    "hasGift": false,
+    "hasLimit": false
+  },
+  {
+    "name": "【福利品】Apple iPhone 8 64GB",
+    "src": "https://s.yimg.com/zp/MerchandiseImages/1222E17E69-SP-8731080.jpg",
+    "desc": "",
+    "price": 6119,
+    "hasFast": true,
+    "hasGift": true,
+    "hasLimit": false
+  },
+  {
+    "name": "(限量下殺)Apple iPhone 11 128G 6.1吋 智慧型手機",
+    "src": "https://s.yimg.com/zp/MerchandiseImages/60D8699D8E-SP-8911166.jpg",
+    "desc": "",
+    "price": 22499,
+    "hasFast": true,
+    "hasGift": false,
+    "hasLimit": false
+  },
+  {
+    "name": "iPhone SE限時折扣↘",
+    "src": "https://s.yimg.com/zp/MerchandiseImages/09DB7ABEFC-SP-8272016.jpg",
+    "desc": "任選1件14999",
+    "price": "",
+    "hasFast": false,
+    "hasGift": false,
+    "hasLimit": true
+  },
+  {
+    "name": "Apple iPhone 11 Pro Max 64G 6.5吋智慧型手機",
+    "src": "https://s.yimg.com/zp/MerchandiseImages/97960576EC-SP-8610756.jpg",
+    "desc": "",
+    "price": 39900,
+    "hasFast": false,
+    "hasGift": false,
+    "hasLimit": false
+  },
+  {
+    "name": "SanDisk卡碟連假殺↘9折",
+    "src": "https://s.yimg.com/zp/MerchandiseImages/F65F3BBE4F-SP-7384440.jpg",
+    "desc": "滿1件享9折",
+    "price": "",
+    "hasFast": false,
+    "hasGift": false,
+    "hasLimit": true
+  }
+]
